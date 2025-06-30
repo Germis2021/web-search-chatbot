@@ -1,0 +1,14 @@
+[project]
+name = "web-search-chatbot"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "agent>=0.1.3",
+    "fastapi[standard]>=0.115.14",
+    "modelsettings>=1.6.4",
+    "openai>=1.93.0",
+    "openai-agents>=0.1.0",
+    "streamlit>=1.46.1",
+]
